@@ -10,3 +10,6 @@
 [submodule "plugin/form"]
 	path = plugin/form
 	url = ssh://git@akvarko.frozen-doe.net/pipeline/plugin/form.git
+[submodule "plugin/azure"]
+	path = plugin/azure
+	url = ssh://git@akvarko.frozen-doe.net/pipeline/plugin/azure.git
