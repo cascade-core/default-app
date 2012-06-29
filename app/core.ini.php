@@ -23,6 +23,7 @@ html_errors		= false
 display_errors		= false
 error_reporting		= E_ALL
 ignore_repeated_errors	= true
+date.timezone		= Europe/Prague
 
 ; core configuration
 [core]
@@ -56,6 +57,12 @@ AZURE_CONFIG		= 'azure.ini.php'
 ; block replacement table
 [block-map]
 ;old-block/name	= "replacement-block/name"
+
+; list of enabled block storages (class names)
+[block-storage]
+ClassBlockStorage	= true
+Azure\AzureBlockStorage	= "{AZURE_BLOCK_DIR}"
+IniBlockStorage		= true
 
 
 ;

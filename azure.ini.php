@@ -27,6 +27,13 @@ container = "var"
 blob_url = "cascade.blob.core.windows.net"
 public = false
 
+[block]
+account = "cascade"
+key = "HFOsdCPISeBjOYJSVOhpAbNzlrfOos//hF3mX20AX4dVsmMUZs1VxJzZTnd45CIH58kQq7OO8ZNEVz4u3JSk6A=="
+container = "block"
+blob_url = "cascade.blob.core.windows.net"
+public = false
+
 
 ; vim:filetype=dosini:
 
